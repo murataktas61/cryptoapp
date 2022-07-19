@@ -24,12 +24,12 @@ a:hover{
 }
 
 .navbar{
-    flex: 0.2;
+    flex: 0.1;
     background-color: rgb(0, 21, 41);
 }
 
 .main{
-    flex: 0.8;
+    flex: 0.9;
     width: 100%;
     
 }
@@ -37,7 +37,7 @@ a:hover{
     padding: 20px;
 }
 .nav-container{
-    position: fixed;
+/*     position: fixed; */
     left: 0;
     margin: 10px;
     height: 100vh;
@@ -48,7 +48,7 @@ a:hover{
 .logo-container{
     background-color: #001529;
     display: flex;
-    padding: 20px;
+    padding-top: 20px;
     align-items: center;
     width: 100%;
 }
@@ -75,7 +75,7 @@ a:hover{
     align-items: center;
 }
 
-@media screen and (max-width:1300px){
+/* @media screen and (max-width:1300px){
     .main{
         margin-left: 50px;
     }
@@ -91,7 +91,7 @@ a:hover{
     .main{
         margin-left: 100px;
     }
-}
+} */
 
 @media screen and (max-width:800px){
     .app{
@@ -105,7 +105,7 @@ a:hover{
 
     .main{
         flex: 1;
-        margin-top: 90px;
+        margin-top: 77px;
         margin-left: 0px;
         margin-right: 10px;
     }
@@ -376,4 +376,7 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
+}
+.homepagecardbg{
+    background: #0071bd;
 }

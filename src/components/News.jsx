@@ -20,7 +20,7 @@ const News = ({simplified}) => {
 
   return (
     <Row gutter={[ 24, 24 ]}>
-      {!simplified &&(
+      {!simplified  && (
         <Col span={24}>
           <Select
           showSearch
@@ -36,12 +36,12 @@ const News = ({simplified}) => {
         </Col>
       )}
       {cryptoNews.value.map((news, i) => (
-        <Col xs={24} sm={12} lg={8} key={i}>
+        <Col xs={24} sm={24} md={24} lg={12} key={i} className="textdeneme">
           <Card hoverable className='news-card'>
               <a href={news.url} target="_blank" rel="noreferrer">
                 <div className='news-image-container'>
                   <Title className='news-title' level={4}>{news.name}</Title>
-                  <img style={{maxWidth:'200px' , maxHeight:'100px'}} src={news?.image?.thumbnail?.contentUrl || demoImage} alt="news"/>
+                  <img style={{maxWidth:'100%'}} src={news?.image?.thumbnail?.contentUrl || demoImage} alt="news"/>
                 </div>
                 <p>{news.description >100 ? `${news.description.substring(0,100)}..`:news.description}</p>
                 <div className='provider-container'>
