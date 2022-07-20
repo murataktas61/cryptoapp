@@ -27,7 +27,7 @@ const Cryptocurrencies = ({ simplified }) => {
         <Input placeholder='Search Cryptocurrency' onChange={(e)=>setSearchTerm(e.target.value.toLowerCase())}/>
       </div>
     )}
-    <Row gutter={[32, 32]} className="crypto-card-container">
+    <Row gutter={[32, 32]} className="crypto-card-container" >
 
       {cryptos?.map((currency) => (
 

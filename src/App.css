@@ -2,8 +2,8 @@
 :root{
     --text-primary:#000;
     --bgPrimary:#fff;
-   --bgSecondary: #F9F9F9;
-   --pink: #0071bd;
+   --bgSecondary: #231f20;
+   --pink: #b39a31;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
 }
@@ -25,7 +25,7 @@ a:hover{
 
 .navbar{
     flex: 0.1;
-    background-color: rgb(0, 21, 41);
+    background-color: #4b494a;
 }
 
 .main{
@@ -42,11 +42,11 @@ a:hover{
     margin: 10px;
     height: 100vh;
     margin: 0px;
-    background-color: rgb(0, 21, 41);
+    background-color: #4b494a;
 }
 
 .logo-container{
-    background-color: #001529;
+    background-color: #4b494a;
     display: flex;
     padding-top: 20px;
     align-items: center;
@@ -73,6 +73,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: yellowgreen!important;
 }
 
 /* @media screen and (max-width:1300px){
@@ -105,7 +106,7 @@ a:hover{
 
     .main{
         flex: 1;
-        margin-top: 77px;
+        margin-top: 76px;
         margin-left: 0px;
         margin-right: 10px;
     }
@@ -307,7 +308,7 @@ width: 70%;
     height:100px;
 }
 .news-card p{
-    color: black;
+    color: #fff;
     margin: 10px 0px !important;
 }
 .provider-container{
@@ -358,9 +359,13 @@ width: 70%;
 }
 .crypto-card-container{
     min-height: 65vh !important;
+ 
+ 
 }
 .crypto-card{
     min-width: 250px;
+ 
+ 
 }
 .crypto-card .crypto-image{
     width:35px;
@@ -371,12 +376,110 @@ width: 70%;
 }
 
 .footer {
-    background-color: #001529;
+    background-color: #4b494a;
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
 }
-.homepagecardbg{
-    background: #0071bd;
+.ant-layout {
+    background: #231f20!important
 }
+.ant-card {
+    background: #4b494a!important;
+    color: #bfbfbe!important;
+}
+.ant-card-bordered{
+    border: 1px solid #4b494a!important;
+}
+.ant-card-head {
+    border-bottom: 1px solid #231f20!important;
+}
+.ant-card-head-title {
+    color: #bfbfbe!important;
+}
+h2.ant-typography, .ant-typography h2 {
+    color: #bfbfbe!important;
+}
+.ant-statistic {
+    color: #bfbfbe!important;
+}
+.ant-statistic-title {
+    color: #bfbfbe!important
+}
+.ant-statistic-content-value {
+    color: #b39a31;
+}
+.ant-typography{
+    color: #bfbfbe!important;
+}
+a.ant-typography, .ant-typography a {
+    color: #bfbfbe!important;
+}
+a {
+    color: #bfbfbe!important;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    background-color:#4b494a !important;
+}
+.ant-card {
+    border-radius: 15px!important;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #231f20!important;
+}
+.ant-input {
+    background-color: #4b494a!important;
+    border: 1px solid #4b494a!important;
+    border-radius: 4px!important;
+    color: #fff!important;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #4b494a!important;
+    border: 1px solid #4b494a!important;
+    border-radius: 4px!important;
+}
+.ant-select-arrow {
+    color: #bfbfbe!important;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #4b494a!important;
+    border: 1px solid #4b494a!important;
+    border-radius: 4px!important;
+}
+.anticon svg {
+    display: inline-block;
+    color: #bfbfbe!important;
+}
+.coin-heading-container p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    color: #bfbfbe!important;
+}
+.coin-value-statistics-heading p {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #bfbfbe!important;
+}
+.coin-desc-link p {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #bfbfbe!important;
+}
+.coin-desc-link h3 {
+    font-weight: 700;
+    color: #bfbfbe!important;
+}
+.ant-btn {
+    padding: 2px 15px!important;
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 18px;
+    color: #bfbfbe!important;
+}
+
+ 
+ 
